@@ -10,7 +10,7 @@
   <email>chuck@horde.org</email>
   <active>yes</active>
  </lead>
- <date>2017-09-19</date>
+ <date>2017-10-17</date>
  <version>
    <release>1.1.6</release>
    <api>1.1.0</api>
@@ -31,7 +31,6 @@
       <dir name="examples">
        <file name="shutdown_runner.php" role="doc" />
       </dir> <!-- /doc/Horde/Queue/examples -->
-      <file name="COPYING" role="doc" />
      </dir> <!-- /doc/Horde/Queue -->
     </dir> <!-- /doc/Horde -->
    </dir> <!-- /doc -->
@@ -59,6 +58,7 @@
      </dir> <!-- /migration/Horde/Queue -->
     </dir> <!-- /migration/Horde -->
    </dir> <!-- /migration -->
+   <file name="LICENSE" role="doc" />
   </dir> <!-- / -->
  </contents>
  <dependencies>
@@ -75,14 +75,15 @@
  </dependencies>
  <phprelease>
   <filelist>
-   <install as="COPYING" name="doc/Horde/Queue/COPYING" />
+   <install as="examples/shutdown_runner.php" name="doc/Horde/Queue/examples/shutdown_runner.php" />
    <install as="Horde/Queue/Runner.php" name="lib/Horde/Queue/Runner.php" />
-   <install as="Horde/Queue/Storage.php" name="lib/Horde/Queue/Storage.php" />
-   <install as="Horde/Queue/Task.php" name="lib/Horde/Queue/Task.php" />
    <install as="Horde/Queue/Runner/RequestShutdown.php" name="lib/Horde/Queue/Runner/RequestShutdown.php" />
+   <install as="Horde/Queue/Storage.php" name="lib/Horde/Queue/Storage.php" />
    <install as="Horde/Queue/Storage/Array.php" name="lib/Horde/Queue/Storage/Array.php" />
    <install as="Horde/Queue/Storage/Db.php" name="lib/Horde/Queue/Storage/Db.php" />
    <install as="Horde/Queue/Storage/Sqs.php" name="lib/Horde/Queue/Storage/Sqs.php" />
+   <install as="Horde/Queue/Task.php" name="lib/Horde/Queue/Task.php" />
+   <install as="LICENSE" name="LICENSE" />
    <install as="migration/1_horde_queue_base_tables.php" name="migration/Horde/Queue/1_horde_queue_base_tables.php" />
   </filelist>
  </phprelease>
@@ -204,7 +205,7 @@
    <stability>
     <release>stable</release>
     <api>stable</api></stability>
-   <date>2017-09-19</date>
+   <date>2017-10-17</date>
    <license uri="http://www.horde.org/licenses/lgpl21">LGPL-2.1</license>
    <notes>
 * 
