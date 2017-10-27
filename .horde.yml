@@ -5,3 +5,23 @@ full: Message and data queuing client library
 description: Queue layer with various storage backends and runners
 list: dev
 type: library
+homepage: https://www.horde.org/libraries/Horde_Queue
+authors:
+  -
+    name: Chuck Hagenbuch
+    user: chuck
+    email: chuck@horde.org
+    active: true
+    role: lead
+version:
+  release: 1.1.6
+  api: 1.1.0
+state:
+  release: stable
+  api: stable
+license:
+  identifier: LGPL-2.1
+  uri: http://www.horde.org/licenses/lgpl21
+dependencies:
+  required:
+    php: ^5.3 || ^7
