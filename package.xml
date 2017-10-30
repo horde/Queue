@@ -10,7 +10,7 @@
   <email>chuck@horde.org</email>
   <active>yes</active>
  </lead>
- <date>2017-09-19</date>
+ <date>2017-10-30</date>
  <version>
    <release>1.1.6</release>
    <api>1.1.0</api>
@@ -31,6 +31,7 @@
       <dir name="examples">
        <file name="shutdown_runner.php" role="doc" />
       </dir> <!-- /doc/Horde/Queue/examples -->
+      <file name="CHANGES" role="doc" />
       <file name="COPYING" role="doc" />
      </dir> <!-- /doc/Horde/Queue -->
     </dir> <!-- /doc/Horde -->
@@ -75,6 +76,7 @@
  </dependencies>
  <phprelease>
   <filelist>
+   <install as="CHANGES" name="doc/Horde/Queue/CHANGES" />
    <install as="COPYING" name="doc/Horde/Queue/COPYING" />
    <install as="Horde/Queue/Runner.php" name="lib/Horde/Queue/Runner.php" />
    <install as="Horde/Queue/Storage.php" name="lib/Horde/Queue/Storage.php" />
@@ -204,7 +206,7 @@
    <stability>
     <release>stable</release>
     <api>stable</api></stability>
-   <date>2017-09-19</date>
+   <date>2017-10-30</date>
    <license uri="http://www.horde.org/licenses/lgpl21">LGPL-2.1</license>
    <notes>
 * 
