@@ -2,7 +2,7 @@
 id: Queue
 name: Queue
 full: Message and data queuing client library
-description: Queue layer with various storage backends and runners
+description: A queue library with various storage backends and runners.
 list: dev
 type: library
 homepage: https://www.horde.org/libraries/Horde_Queue
