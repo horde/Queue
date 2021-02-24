@@ -27,9 +27,6 @@
     "autoload": {
         "psr-0": {
             "Horde_Queue": "lib/"
-        },
-        "psr-4": {
-            "Horde\\Queue\\": "src/"
         }
     }
 }
