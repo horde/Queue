@@ -1,4 +1,5 @@
 {
+    "minimum-stability": "dev",
     "name": "horde/queue",
     "description": "Message and data queuing client library",
     "type": "library",
